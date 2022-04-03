@@ -45,10 +45,6 @@ p{
 /* ==============================
 Section Start 
 ======================== */
-.box{
-    padding: 3rem;
-}
-
 .section{
     background: var(--bkgdHbtn);
     padding: 8rem 0;
@@ -63,6 +59,10 @@ Section Start
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
+}
+
+.box{
+    padding: 3rem;
 }
 
 .first-side-data{
